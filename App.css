@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d0d0d;
+  color: white;
+}
+.App {
+  padding: 2rem;
+  text-align: center;
+}
+.urban {
+  color: #ff5757;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+.card {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin: auto;
+  max-width: 400px;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+button {
+  background: #ff5757;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
